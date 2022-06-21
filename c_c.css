@@ -1,0 +1,138 @@
+*
+{
+    padding: 0;
+}
+body
+{
+    background-attachment: fixed;
+    background-color: palegreen;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1
+{
+    text-align: center;
+    font: 40px calibri;
+    margin: auto;
+}
+.margin
+{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    width: 1000px;
+    height: 50px;
+    background-color: white;
+    border-radius: 15%;
+}
+.imagen
+{
+    float: left;
+    width: 360px ;
+}
+label
+{
+    border-radius:25px ;
+    width: 600px;
+    height: 50px;
+    font: 45px maiandra gd;
+}
+input
+{
+    transition: all .75s;
+    border-radius: 25px;
+    width: 500px;
+    height: 42px;
+    font: 40px calibri;
+}
+table
+{
+    border-width: 10px;
+    border-color: blue;
+    border-style: solid;
+    color: blue;
+    border-radius: 25px;
+    background-color: paleturquoise;
+    width: 70%;
+    height: 70%;
+}
+th.linea 
+{
+    top: 0px;
+    border-right: 10px;
+    border-style: solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    color:blue;
+}
+th.linea2
+{
+    top: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-top: 0px;
+    border-bottom: 10px;
+    border-left: 0px;
+    color:blue;
+}
+h2
+{
+    width: 200px;
+    background-color: transparent;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 5px;
+    color: blue;
+    transition: all 1s;
+    text-align: center;
+    font: 40px maiandra gd;
+    margin: auto;
+    float: left;
+}
+h2:hover
+{
+    text-align: center;
+    width: 250px;
+    background-color: blue;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 5px;
+    color:paleturquoise;
+    transition: all 1s;
+    text-align: center;
+    font: 50px maiandra gd;
+    margin: auto;
+
+}
+
+.a
+{
+    float: right;
+    width: 200px;
+    background-color: transparent;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 5px;
+    color: red;
+    transition: all 1s;
+    text-align: center;
+    font: 40px maiandra gd;
+    margin: auto;
+
+}
+.a:hover
+{
+    text-align: center;
+    width: 250px;
+    background-color: red;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 5px;
+    color:white;
+    transition: all 1s;
+    text-align: center;
+    font: 50px maiandra gd;
+    margin: auto;
+}

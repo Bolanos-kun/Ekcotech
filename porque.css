@@ -1,0 +1,51 @@
+.c
+{
+  text-decoration:none;
+  font: 25px maiandra gd;
+  transition: all 0.5s;
+  color: black;
+  width: 330px;
+  background-color: white;
+  border-radius: 25px ;
+}
+h1
+{
+  border-style: solid;
+  border-radius: 30%;
+  font: 60px maiandra gd;
+  width: 800px;
+  background-color: white;
+}
+td
+{
+  font: 25px calibri;
+}
+#imagen
+{
+  border-width: 5px;
+  border-style: solid;
+  width: 500px;
+  height: 300px;
+  float: right;
+  right: 10px;
+  border-radius: 25px;
+  color: grey;
+}
+a
+{
+  text-decoration: none;
+  color: black;
+}
+.derecha
+{
+  border-style: solid;
+  border-width: 5px;
+  color:black;
+  width: 90%;
+  background-color: white;
+  border-radius: 25px;
+}
+.imagen3
+{
+  width: 40%;
+}

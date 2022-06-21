@@ -1,0 +1,113 @@
+*
+{
+    padding: 0%;
+}
+body
+{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(193, 250, 217);
+}
+#div
+{
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  background-color: palegreen;
+  border-spacing: 15px;
+  padding:0;
+  border-bottom:0px ;
+  border-radius: 0;
+}
+
+
+.b
+{
+  text-decoration:none;
+  font: 20px maiandra gd;
+  transition: all 0.5s;
+  color: black;
+}
+.b:hover
+{
+    border-style: solid;
+    border-width: auto;
+  padding: 10px;
+  width:300px;
+  background-color: white;
+  border-radius: 25px;
+  font: 26px maiandra gd;
+  transition: all 0.5s;
+  color: green;
+}
+
+
+img
+{
+  z-index: -1;
+  border-radius: 70px;
+  width:60%;
+}
+
+.table
+{
+  z-index: 100000;
+  width: 90%;
+  height: 100px;
+  background-color: rgb(162, 226, 162);
+  border-spacing: 15px;
+  padding:0;
+  border-bottom:0px ;
+  border-radius: 25px;
+}
+
+
+.div4
+{
+  z-index: -1;
+  border-radius: 70px;
+  width:50%;
+  background-color: transparent;
+}
+
+
+.h2
+{
+  font: 40px;
+}
+
+th
+{
+  width: 300px;
+}
+.imagen2
+{
+  z-index: -1;
+  border-radius: 70px;
+  width:100%;
+}
+.fondomenu
+{
+    left: 0;
+    z-index: -100000;
+    position: fixed;
+    width: 180%;
+    height: 2000px;
+}
+
+.nada
+{
+    border-style: solid;
+    border-width: 2px;
+  text-decoration:none;
+  font: 25px maiandra gd;
+  transition: all 0.5s;
+  color: green;
+  width: 500px;
+  background-color: white;
+  border-radius: 25px ;
+}

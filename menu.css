@@ -1,0 +1,62 @@
+#header 
+            {
+				margin:auto;
+				width:230px;
+				font:20px maiandra gd;
+			}
+			
+			ul, ol 
+            {
+				list-style:none;
+			}
+			
+			.nav > li 
+            {
+				float:left;
+			}
+			
+			.nav li a
+            {
+                text-decoration: none;
+                transition: all .4s;
+                border-radius: 20px;
+				background-color:palegreen;
+				color:black;
+				padding:10px;
+				display:block;
+			}
+			
+			.nav li :hover 
+            {
+                border-style: solid;
+                border-width: auto;
+                color: green;
+                transition: all .4s;
+                font:25px maiandra gd;
+				background-color:white;
+			}
+			
+			.nav li ul 
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                vertical-align: middle;
+				display: none;
+				position:absolute;
+			}
+			
+			.nav li:hover > ul
+            {
+				display: flex   ;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+
+.espacio
+{
+    width: 170px;
+}
+			

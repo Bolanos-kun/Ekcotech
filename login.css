@@ -1,0 +1,143 @@
+body
+{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(193, 250, 217);
+}
+#logo
+{
+    border-radius: 100px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 400px;
+    background-color: transparent;
+}
+
+#b
+{
+    opacity: 1;
+}
+a
+{
+    text-decoration: none;
+}
+#borde
+{
+    width: 500;
+    background-color:white;
+    border-radius: 25px;
+    border-color: black;
+}
+.b
+{
+    border-style: solid;
+    border-width: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    position: relative;
+    font:25px maiandra gd;
+    width: 300;
+    height: 200;
+    background-color: transparent;
+    transition: all 1s;
+    border-radius: 25px;
+    color: blue;
+}
+.b:hover
+{
+    border-style: solid;
+    border-width: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font:25px maiandra gd;
+    width: 400; 
+    height: 200;
+    background-color:skyblue;
+    transition: all 1s;
+    border-radius: 25px;
+    color: black;
+}
+#a
+{
+    border-style: solid;
+    border-width: 5px;
+    color: green;
+    font:25px maiandra gd;
+    background-color:transparent;
+    transition: all 1s;
+    border-radius: 25px;
+}
+#a:hover
+{
+    border-style: solid;
+    border-width: 5px;
+    color: black;
+    font:25px maiandra gd;
+    width: 400;
+    background-color:palegreen;
+    transition: all 1s;
+    border-radius: 25px;
+}
+img
+{
+    position: middle;
+    float: middle;
+    width: 40%;
+}
+
+h1
+{
+    text-align: center;
+    font: 40px calibri;
+    margin: auto;
+}
+
+
+.fondo
+{
+    border-width: 20px;
+    border-style: solid;
+    border-color: grey;
+    width: 40%;
+    height: auto;
+    background-color: white;
+    border-radius: 10%;
+}
+.c
+{
+    border-style: solid;
+    border-width: 5px;
+    transition: all 1s;
+    width: 200px;
+    height: auto;
+    color: red;
+    background-color: white;
+    font:40px calibri;
+    border-radius: 25px;
+}
+.c:hover
+{
+    border-style: solid;
+    border-width: 5px;
+    transition: all 1s;
+    width: 300px;
+    font: 45px calibri;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+}
+.margin
+{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    width: 1350px;
+    height: 50px;
+    background-color: white;
+    border-radius: 15%;
+}
